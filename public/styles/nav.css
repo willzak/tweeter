@@ -1,0 +1,76 @@
+nav {
+  position: fixed;
+  top: 0px;
+  height: 120px;
+  z-index: 9999;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  font-family: 'Bungee', cursive;
+  font-size: xx-large;
+  background-color: #4097A1;
+  padding: 1.5em;
+  margin-bottom: 15px;
+}
+
+#tweetAd  {
+  font-size: medium;
+  display: none;
+}
+
+span {
+  font-family: 'Bungee', cursive;
+}
+
+.navText {
+  display: flex;
+  flex-direction: column;
+  size: 50%;
+}
+
+/* for arrow */
+@primary: #fd6b21; // Orange
+body { 
+  background: #ffef0d;
+}
+
+.fa-arrow-down { 
+  color: #b2faff; 
+  text-decoration: none;
+}
+
+.arrow {
+  text-align: center;
+  margin: 8% 0;
+  display: none;
+}
+
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-15px);
+  }
+  60% {
+    transform: translateY(-7.5px);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #tweetAd {
+    display: inline;
+  }
+
+  .arrow {
+    display: inline;
+  }
+}

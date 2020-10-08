@@ -1,0 +1,65 @@
+form {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #545149;
+  font-weight: 700;
+  width: 70vw;
+  padding-top: 20px;
+}
+
+#tweet-text {
+  background-color: #f4f1ec;
+  outline: none;
+  resize: none;
+  width: 100%;
+  border: none;
+  border-bottom: 3px solid #545149;
+  margin-bottom: 20px;
+}
+
+.tweetUtilities {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Bungee', cursive;
+  margin-bottom: 60px;
+  padding: 0;
+}
+
+.negative {
+  color: red;
+}
+
+#makeTweet {
+  color: #FFFF;
+  background-color: #4097A1;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 0.12em;
+}
+
+#makeTweet:hover {
+  background-color: #f0b41d;
+}
+
+#error {
+  color: red;
+  display: none;
+  border: 3px solid red;
+  padding: 5px;
+  margin: 5px;
+}
+
+@media only screen and (min-width: 1024px) {
+  form {
+    width: 50vw;
+    margin: 50px;
+  }
+
+  .tweetUtilities {
+    margin: 20px;
+    margin-bottom: 20px;
+  }
+}

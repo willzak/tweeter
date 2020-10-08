@@ -23,3 +23,112 @@ body {
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+body::before {
+  display:block;
+  content: '';
+  height: 120px;
+}
+
+main {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+article {
+  font-family: 'Source Sans Pro', sans-serif;
+  width: 70vw;
+  margin: 40px auto;
+  border: 3px solid  #545149;
+  padding: 10px;
+  opacity: 0.7;
+}
+
+article:hover{
+  box-shadow: 10px 10px #aebbe7;
+  opacity: 1;
+}
+
+article:hover .handle {
+  display: block;
+}
+
+.tweetHeader {
+  font-family: 'Source Sans Pro', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tweet {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.tweetProfilePic {
+  margin-right: 20px;
+  width: 50px;
+  height: 50px;
+}
+
+.handle {
+  padding: 20px;
+  display: none;
+  font-weight: 600;
+  opacity: 0.15;
+  color:  #4056A1;
+}
+
+.tweetFooter {
+  margin-top: 20px;
+  border-top: 3px solid #545149;
+  font-size: medium;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fas {
+  margin: 7px;
+}
+
+.ending {
+  width: 100%;
+  height: 2.5rem;
+  position: fixed;
+  bottom: 0;
+  background-color: #4097A1;
+  filter: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: medium;
+}
+
+@media only screen and (min-width: 1024px) {
+  body {
+    display: flex;
+    justify-content: row;
+    align-items: flex-start;
+    margin-top: 150px;
+  }
+
+  main {
+    width: 60vw;
+  }
+
+  article {
+    width: 50vw;
+  }
+}
