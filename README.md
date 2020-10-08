@@ -1,6 +1,6 @@
 # 🐥 Tweeter Project
 
-Used to highlight HTML, CSS, and JQuery code, Tweeter is a simple. single page twitter clone. 
+Used to highlight HTML, CSS, and JQuery code, Tweeter is a simple. single page twitter clone. The tweeter starter code was cloned from a Lighthouse Labs repository as a project as part of a Web Development Bootcamp. 
 
 Functionalities featured include: 
 - Responsive design and use of Flexbox
@@ -15,7 +15,7 @@ Functionalities featured include:
 
 ## 📸 Final Product 
 
-!["GIF of tweet in action"](https://gph.is/g/4A19lme)
+!["GIF of tweet in action"](https://github.com/willzak/tweeter/blob/master/docs/tweeter-example.gif?raw=true)
 
 !["Photo of homescreen at ~1024px"](https://github.com/willzak/tweeter/blob/master/docs/HomePage-1024px.png?raw=true)
 
