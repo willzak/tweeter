@@ -15,15 +15,25 @@ Functionalities featured include:
 
 ## 📸 Final Product 
 
----- Functionality ----
+### Functionality
 
 • GIF of tweet in action
+
+
 !["GIF of tweet in action"](https://github.com/willzak/tweeter/blob/master/docs/tweeter-example.gif?raw=true)
 
----- Layout ----
+
+
+### Layout
 
 • Photo of homescreen at ~1024px
+
+
 !["Photo of homescreen at ~1024px"](https://github.com/willzak/tweeter/blob/master/docs/HomePage-1024px.png?raw=true)
 
-• Photo of homescreen for mobile or tablet
+
+
+• Photo of homescreen for mobile or tablet 
+
+
 !["Photo of homescreen for mobile or tablet"](https://github.com/willzak/tweeter/blob/master/docs/HomePage-Mobile-Tablet.png?raw=true)
