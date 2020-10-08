@@ -60,7 +60,7 @@ article:hover .handle {
   display: block;
 }
 
-.tweetHead {
+.tweetHeader {
   font-family: 'Source Sans Pro', sans-serif;
   display: flex;
   align-items: center;
