@@ -40,7 +40,6 @@ main {
   display: flex;
   align-items: center;
   flex-direction: column;
-  position: relative;
 }
 
 article {
@@ -61,7 +60,7 @@ article:hover .handle {
   display: block;
 }
 
-.tweetHeader {
+.tweetHead {
   font-family: 'Source Sans Pro', sans-serif;
   display: flex;
   align-items: center;
@@ -88,7 +87,7 @@ article:hover .handle {
   color:  #4056A1;
 }
 
-.tweetFooter {
+footer {
   margin-top: 20px;
   border-top: 3px solid #545149;
   font-size: medium;
@@ -100,20 +99,6 @@ article:hover .handle {
 
 .fas {
   margin: 7px;
-}
-
-.ending {
-  width: 100%;
-  height: 2.5rem;
-  position: fixed;
-  bottom: 0;
-  background-color: #4097A1;
-  filter: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-size: medium;
 }
 
 @media only screen and (min-width: 1024px) {
